@@ -4,8 +4,8 @@ import { ArrowDown, ChevronRight, Mail, Building2, Award, ShieldCheck, Cpu } fro
 export default function Hero({ onOpenConsultation }) {
     const stats = [
         { label: 'Ministry Certified', val: 'Category 1', sub: 'Consulting Architects & Engineers' },
-        { label: 'Landmark Projects', val: '11+', sub: 'Government & High-Rise Towers' },
-        { label: 'Cumulative Built Area', val: '40,000+ m²', sub: 'Urban Developments in Addis Ababa' },
+        { label: 'Landmark Projects', val: '8+', sub: 'High-Rise & Mixed-Use Towers' },
+        { label: 'Cumulative Built Area', val: '25,000+ m²', sub: 'Urban Developments in Addis Ababa' },
         { label: 'German & Local Mastery', val: '12+ Years', sub: 'Bauhaus Structural Standards' },
     ];
 
@@ -14,11 +14,11 @@ export default function Hero({ onOpenConsultation }) {
             id="hero"
             className="relative min-h-screen flex flex-col justify-between pt-32 sm:pt-36 pb-12 overflow-hidden bg-[#0A1C33]"
         >
-            {/* Background Image: Actual Architectural Landmark from Profile (FDRE Attorney General Piazza) */}
+            {/* Background Image: Actual Architectural Landmark from Profile (Metro Homes Aware Tower) */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="/images/projects/attorney-general-piazza.jpg"
-                    alt="FDRE Attorney General Headquarters by Ethio-German Consulting"
+                    src="/images/projects/metro-homes-aware-square.jpg"
+                    alt="Metro Homes Landmark High-Rise by Ethio-German Consulting"
                     className="w-full h-full object-cover object-center scale-105 transition-transform duration-10000 ease-out"
                 />
                 {/* Subtle dark overlay for readability using brand colors */}

@@ -121,51 +121,9 @@ export default function ProjectsSection({ onOpenConsultation }) {
             image: '/images/projects/metro-homes-new-stadium.jpg',
             description: 'Iconic B+G+12 tower providing 15 underground parking spaces and 750 m² of commercial retail floor space from ground through 3rd floor. Upper levels accommodate three 2-bedroom units per floor with enclosed kitchens and high-speed elevator access.',
         },
-        {
-            id: 9,
-            title: 'Apartment and Commercial Building',
-            category: 'Mixed Use',
-            building: 'B+G+6',
-            location: 'Bole Bulbula, Addis Ababa',
-            plot_area: '500 m²',
-            built_up_area: '2,590 m²',
-            project_cost: 'ETB 25,000,000',
-            status: 'Under Construction',
-            client: 'Woynishet Molla',
-            image: '/images/projects/apartment-bole-bulbula.jpg',
-            description: 'B+G+6 complex featuring 200 m² commercial space and 40 m² reception lobby salon, alongside 12 three-bedroom apartments of 145 m² and 170 m² complete with master bedroom suites, maid quarters, and private balconies.',
-        },
-        {
-            id: 10,
-            title: 'Apartment Building',
-            category: 'Residential',
-            building: 'B+G+5',
-            location: 'Sar Bet, Addis Ababa',
-            plot_area: '336 m²',
-            built_up_area: '5,080 m²',
-            project_cost: 'ETB 35,000,000',
-            status: 'Design Completed',
-            client: 'Metropolitan Real Estate',
-            image: '/images/projects/apartment-sar-bet.jpg',
-            description: 'Exclusive B+G+5 apartment development featuring five expansive 185 m² 3-bedroom residences with 3.5 bathrooms, enclosed kitchen, living/dining salon, maid room, and dedicated laundry room.',
-        },
-        {
-            id: 11,
-            title: 'FDRE Attorney General Building',
-            category: 'Institutional',
-            building: '2B+G+M+10',
-            location: 'Piazza, Addis Ababa',
-            plot_area: '2,614 m²',
-            built_up_area: '13,990 m²',
-            project_cost: 'ETB 175,000,000',
-            status: 'Design Completed',
-            client: 'FDRE Attorney General',
-            image: '/images/projects/attorney-general-piazza.jpg',
-            description: 'Monumental 2B+G+M+10 federal headquarters comprising 56 secure parking spaces, 16 dedicated courtrooms, top-floor multipurpose conference hall, full-height central atrium with architectural skylight, four high-speed elevators, and triple-height public lobby.',
-        },
     ];
 
-    const categories = ['All', 'Mixed Use', 'Residential', 'Institutional'];
+    const categories = ['All', 'Mixed Use', 'Residential'];
     const statuses = ['All', 'Design Completed', 'Under Construction', 'Completed'];
 
     const filteredProjects = projects.filter((p) => {

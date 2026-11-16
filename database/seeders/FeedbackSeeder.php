@@ -33,13 +33,13 @@ class FeedbackSeeder extends Seeder
             ]);
 
             Feedback::create([
-                'client_name' => 'Metropolitan Real Estate',
-                'email' => 'projects@metropolitan.et',
+                'client_name' => 'Michael Wandwassen',
+                'email' => 'm.wandwassen@gmail.com',
                 'phone' => '+251 911 400 500',
-                'company_or_project' => 'Sar Bet Luxury Residences (B+G+5)',
+                'company_or_project' => 'Signal Commercial & Residential Tower (B+G+6)',
                 'rating' => 5,
                 'feedback_type' => 'Design Quality',
-                'message' => 'From preliminary soil study interpretation to detailed 3D walkthroughs and full structural ETABS calculations, Ethio-German Consulting proved to be a reliable, world-class Category 1 partner.',
+                'message' => 'From preliminary soil study interpretation to detailed 3D architectural drawings and full structural ETABS calculations, Ethio-German Consulting proved to be a reliable, world-class Category 1 partner.',
                 'status' => 'approved',
             ]);
         }
